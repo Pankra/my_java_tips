@@ -55,12 +55,12 @@ public class XmlWork {
 
                 }
 
-//                if (tempNode.hasChildNodes()) {
-//
-//                    //loop again if has child nodes
-//                    printNote(tempNode.getChildNodes());
-//
-//                }
+                if (tempNode.hasChildNodes()) {
+
+                    //loop again if has child nodes
+                    printNode(tempNode.getChildNodes());
+
+                }
 
                 System.out.println("Node Name =" + tempNode.getNodeName() + " [CLOSE]");
 
